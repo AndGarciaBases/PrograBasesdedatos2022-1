@@ -44,7 +44,7 @@ EXEC sp_xml_preparedocument @hDoc
 OUTPUT, @XML
 DECLARE @xmlTable 
 Table (id INT IDENTITY(1,1) PRIMARY KEY,	
-	Nombre varchar(16),	
+	Nombre varchar(128),	
 	Precio Money)
 INSERT 
 INTO @xmlTable 
@@ -58,7 +58,7 @@ Nombre varchar(128) '@Nombre',
 Precio Money '@Precio'
 );  
 INSERT 
-INTO dbo.Usuario
+INTO dbo.Articulo
 SELECT Nombre,
 		Precio
 FROM @xmlTable;  
