@@ -1,0 +1,134 @@
+<Datos>
+
+  <Usuarios>
+    <Usuario Nombre="czuniga" Password="Asd1234" />
+    <Usuario Nombre="jaguero" Password="LaFacil" />
+    <Usuario Nombre="vmata" Password="159797530a" />
+    <Usuario Nombre="fquiros" Password="love45" />
+    <Usuario Nombre="ralvarez" Password="MyPass123*" />
+    <Usuario Nombre="ulljose" Password="DebajoDelMar5454" />
+    <Usuario Nombre="gruiz" Password="LaGloriaEsMia" />
+    <Usuario Nombre="LPerez" Password="MyPass123*" />
+    <Usuario Nombre="lCamacho" Password="LPerez1" />
+    <Usuario Nombre="AVindas" Password="Nadie1234*" />
+    <Usuario Nombre="JRamirez" Password="C454gr1" />
+  </Usuarios>
+
+  <Articulos>
+    <Articulo Nombre="Pomo sin llave en acabado cromado" Precio="9195" />
+    <Articulo Nombre="Pomo con llave en acabado cromo" Precio="9750" />
+    <Articulo Nombre="Rodin con espiga roscada 2 pulgadas" Precio="825" />
+    <Articulo Nombre="Rondin de bola 2 pulgadas soporta 50 kg" Precio="1615" />
+    <Articulo Nombre="Tornillo tirafondo 5/16" Precio="425" />
+    <Articulo Nombre="Tornillo tirafondo 3/8" Precio="450" />
+    <Articulo Nombre="Bisagra esquinera 45 cierre lento clip-on" Precio="3850" />
+    <Articulo Nombre="Bisagra curva 35 mm cierre lento modelo 555" Precio="1590" />
+    <Articulo Nombre="Bisagra curva interior 35 mm cierre normal modelo 306" Precio="2252" />
+    <Articulo Nombre="Manija 022 de acero inoxidable pintura negra de 96mm" Precio="1245" />
+    <Articulo Nombre="Aldaba para porton 6 pulgadas" Precio="3125" />
+    <Articulo Nombre="Escalera combinada aluminio 5 m" Precio="114950" />
+    <Articulo Nombre="Bisagra esquinera recta" Precio="3125" />
+    <Articulo Nombre="Colgador para modulo superior soporta 50kg" Precio="1325" />
+    <Articulo Nombre="Terminal para riel perfil tipo gola media izquierdo mate" Precio="1180" />
+    <Articulo Nombre="Perfil pvc aluminizado 15cm x 400cm con empaque coextruido" Precio="21500" />
+    <Articulo Nombre="Pata plastica con nivel de aluminio 150mm" Precio="645" />
+    <Articulo Nombre="Tornillo estufa milimetrico en 6 x 30 cm e-1" Precio="525" />
+    <Articulo Nombre="Taladro electronico TPR 500/13 K" Precio="50100" />
+    <Articulo Nombre="Taladro percutor electronico TPR 1050/13 - 2 velocidades" Precio="60000" />
+    <Articulo Nombre="METABO KFM 9-3 RF BISELADORA DE METAL" Precio="480615" />
+    <Articulo Nombre="Grifo de cocina 8 abs manija acero" Precio="10898" />
+    <Articulo Nombre="Luz de interruptor led regulable 180 lumen" Precio="1950" />
+    <Articulo Nombre="Set de cajas jumbo 56 litros colores beige y chocolate" Precio="9950" />
+    <Articulo Nombre="Grifo monomando alto cromado para lavamanos" Precio="13000" />
+    <Articulo Nombre="Soldador inverter de 200a stanley 110 / 220v" Precio="180000" />
+    <Articulo Nombre="Barniz finish mate 903 1 galon" Precio="19950" />
+    <Articulo Nombre="Laja de piedra natural aysen de 10 x 40 cm" Precio="2950" />
+    <Articulo Nombre="Careta tipo protector facial para adulto" Precio="400" />
+    <Articulo Nombre="Kit de instalacion fregadero 2 tanques" Precio="13950" />
+    <Articulo Nombre="Maceta plastica terracota numero 8" Precio="1450" />
+    <Articulo Nombre="Orejeras snr 23 nuca" Precio="2950" />
+    <Articulo Nombre="Filtro compacto de carbon activo" Precio="2950" />
+    <Articulo Nombre="Filtro de aluminio para extractor de cocina" Precio="5950" />
+    <Articulo Nombre="Toallas para limpieza alfombra tapiz" Precio="2950" />
+    <Articulo Nombre="Dispositivo emisor de luz uv elimina microorganismos" Precio="2950" />
+    <Articulo Nombre="Atrapa aranas 3 piezas" Precio="2750" />
+    <Articulo Nombre="Botella spray desinfectante" Precio="17520" />
+    <Articulo Nombre="Lima redonda bastarda con mango 6 pulgadas" Precio="1450" />
+    <Articulo Nombre="Estuche desinfectante uv-c led" Precio="27450" />
+    <Articulo Nombre="Broca titanio 15/32 pulgadas" Precio="30002.10" />
+    <Articulo Nombre="Careta tipo protector facial para nino con frente fijo" Precio="500.10" />
+    <Articulo Nombre="Cubo 19 mm x 1/2 pulgada 12 puntos" Precio="1950.20" />
+    <Articulo Nombre="Extension de 3/4 x 8 pulgadas de largo" Precio="7850.10" />
+    <Articulo Nombre="Perilla flamingo 27 en zamak de color cromo brillante" Precio="4150.20" />
+    <Articulo Nombre="Dispensador automatico de cobertor para zapatos" Precio="7000" />
+    <Articulo Nombre="Extension 3/8 pulgada 1.5 pulgadas" Precio="995.10" />
+    <Articulo Nombre="Filtro de carbon activo universal para extractor" Precio="4750.30" />
+    <Articulo Nombre="Vaporizador desinfectante" Precio="1950" />
+    <Articulo Nombre="Raspador de empaques" Precio="4502" />
+    <Articulo Nombre="Maceta plastica terra numero 10" Precio="1950.64" />
+    <Articulo Nombre="Colgador para zapatos con capacidad de 9 pares" Precio="3995" />
+    <Articulo Nombre="Estabilizador de caminos para accesos de parqueo" Precio="5650" />
+    <Articulo Nombre="Radio am / fm" Precio="5950.10" />
+    <Articulo Nombre="Kit taladro atornillador 18 v + bateria 2.5 ah + 69 accesorios" Precio="19500" />
+    <Articulo Nombre="Plastico de paletizar 18 pulgadas x 30,4 m" Precio="4750" />
+    <Articulo Nombre="Amarra surtido de colores 650 unidades" Precio="600.20" />
+    <Articulo Nombre="Grapa 10 mm plana blanca 100 unidades" Precio="450.10" />
+    <Articulo Nombre="Grapa curva 10 mm blanca 100 unidades" Precio="122" />
+    <Articulo Nombre="Imperfast 670 galon" Precio="14750.20" />
+    <Articulo Nombre="Pistola para epoxico" Precio="55550" />
+    <Articulo Nombre="Catalizador 2 onzas" Precio="875" />
+    <Articulo Nombre="Yeso 1 kg" Precio="655" />
+    <Articulo Nombre="Ocre color verde oscuro1 kg" Precio="820" />
+    <Articulo Nombre="Ocre color rojo 1 kg" Precio="850" />
+    <Articulo Nombre="Ocre color negro 1 kg" Precio="820" />
+    <Articulo Nombre="Ocre amarillo 1kg" Precio="900" />
+    <Articulo Nombre="Flor hierro forjado" Precio="1520.12" />
+    <Articulo Nombre="Hoja izquierda hierro forjado" Precio="575" />
+    <Articulo Nombre="Punta de lanza de hierro forjado" Precio="595" />
+    <Articulo Nombre="Roseta 25 cm de hierro forjado" Precio="6725" />
+    <Articulo Nombre="Boquilla de metal redonda en 3 pulgadas" Precio="1095" />
+    <Articulo Nombre="Union drenaje 115 mm" Precio="6125" />
+    <Articulo Nombre="Cruz lisa pvc 1/2 pulgada para agua fria" Precio="3325" />
+    <Articulo Nombre="Tee pvc 1/2 pulgada con inserto metalico" Precio="5520" />
+    <Articulo Nombre="Terminal de anillo cerrado 5/16 pulgadas cable 6 awg" Precio="720.20" />
+    <Articulo Nombre="Union hembra para manguera npt 3/8 x 1/2 pulgada" Precio="2020.20" />
+    <Articulo Nombre="Aireador para fregadero" Precio="1875" />
+    <Articulo Nombre="Union hembra npt 3/8 pulgada" Precio="3825" />
+    <Articulo Nombre="Reduccion de hiero galvanizado 1/2 pulgada x 3/8 pulgada" Precio="680.20" />
+    <Articulo Nombre="Pedrin eles rojo" Precio="835" />
+    <Articulo Nombre="Borde cupula repello" Precio="3995" />
+    <Articulo Nombre="Pila acabado granito tanque derecho 93cm x 68cm" Precio="118502" />
+    <Articulo Nombre="Lamina difusora vienna 61cm x 61cm" Precio="8850" />
+    <Articulo Nombre="Niple de bronce hexagonal 1/2 pulgada" Precio="3320" />
+    <Articulo Nombre="Rejilla redonda cromada abs con dos valvulas antiolores" Precio="2295" />
+    <Articulo Nombre="Preparador de superficies 32 onzas" Precio="10120.20" />
+    <Articulo Nombre="Pegamento cpvc 50g" Precio="2075.20" />
+    <Articulo Nombre="Coleta para fregadero 15cm metalica" Precio="4852.20" />
+    <Articulo Nombre="Niple de hierro cromado 1/2 x 6 pulgadas" Precio="3452.30" />
+    <Articulo Nombre="lija de agua de alto rendimiento de grano fino de 1000" Precio="875" />
+    <Articulo Nombre="Aceite semi sintetico para motor de herramientas electricas en presentacion de 100 ml" Precio="2192" />
+    <Articulo Nombre="Adaptador 3/8 pulgada a 1/2 pulgada" Precio="3575" />
+    <Articulo Nombre="Alicate aislado de puntas de 6-1/2 pulgadas" Precio="14375.10" />
+    <Articulo Nombre="Alicate corte diagonal compound 8 pulgadas" Precio="129520" />
+    <Articulo Nombre="Alicate hojalatero de 8 pulgadas" Precio="8050.20" />
+    <Articulo Nombre="Alicate para electricista 8 pulgadas" Precio="7950.20" />
+    <Articulo Nombre="Alicate tipo c 11 pulgadas" Precio="11000" />
+    <Articulo Nombre="Almohadilla abrasiva para dremel versa" Precio="800.00" />
+    <Articulo Nombre="Arco de segueta solera" Precio="3595" />
+    <Articulo Nombre="Bandeja plastica 12 pulgadas" Precio="3850" />
+    <Articulo Nombre="Barras pegamento 1/2 pulgada" Precio="1120" />
+    <Articulo Nombre="Bateria 2 ah einhell" Precio="345000.10" />
+    <Articulo Nombre="Bisturi para uso liviano" Precio="2650" />
+    <Articulo Nombre="Bomba de agua para fuente hasta 1.9 metros" Precio="4120.20" />
+    <Articulo Nombre="Boya electrica 25 a" Precio="12121" />
+    <Articulo Nombre="Broca cobalto 9/64 pulgadas" Precio="3350" />
+    <Articulo Nombre="Broca metal alta velocidad 3/32 pulgadas 2 piezas" Precio="2125" />
+    <Articulo Nombre="Broca para bisagra invisible 25 mm" Precio="2750.20" />
+    <Articulo Nombre="Broca sierra bimetal 2 1/2 pulgadas" Precio="141450" />
+    <Articulo Nombre="Caja metalica de 5 gavetas de 66 x 41 x 50 cm" Precio="175000" />
+    <Articulo Nombre="Caladora orificios ocultos 310 kreg" Precio="10000.20" />
+    <Articulo Nombre="Careta para soldar" Precio="5000.10" />
+    <Articulo Nombre="Cargador de 18 v" Precio="23520" />
+  </Articulos>
+
+</Datos>
