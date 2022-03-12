@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="/css/styles.css">
+</head>
+
+<body style="background-color:#FFFFFF">
+    <div class="topnav">
+        <a onclick="openNav()">></a>
+      </div> 
+      <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="/main">Inicio</a>
+      </div>
+
+      <script>
+        // Opens navigation left panel
+        function openNav() {
+          document.getElementById("mySidenav").style.width = "250px";
+        }
+        // Closes left panel
+        function closeNav() {
+          document.getElementById("mySidenav").style.width = "0";
+        }
+
+        function openlogin(){
+          document.getElementById("Mylogin").style.height = "35%";
+        }
+        function closelogin(){
+          document.getElementById("Mylogin").style.height = "0";
+        }
+        </script>
+        <button class="btn" onclick="filtrarNombre()" > Filtrar por Nombre</button>
+       <input type="text" id="inNombre" placeholder="Filrar por nombre">
+       <button class="btn" onclick="filtrarCantidad()" > Filtrar por Cantidad</button>
+       <input type="text" id="inCantidad" placeholder="Filrar por Cantidad">
+       <table id="TablaArticulos">
+         <tr class="header">
+           <th style="width:60%;">Nombre</th>
+           <th style="width:40%;">Cantidad</th>
+         </tr>
+         <tr>
+           <td>Articulo 1</td>
+           <td>200</td>
+         </tr>
+         <tr>
+           <td>Articulo 2</td>
+           <td>300</td>
+         </tr>
+         <tr>
+           <td>Articulo 4</td>
+           <td>500</td>
+         </tr>
+         <tr>
+           <td>Articulo 6</td>
+           <td>50</td>
+         </tr>
+       </table> 
+
+
+
+       <script>
+        function filtrarNombre() {
+          // Declare variables
+          var input, filter, table, tr, td, i, txtValue;
+          input = document.getElementById("inNombre");
+          filter = input.value.toUpperCase();
+          table = document.getElementById("TablaArticulos");
+          tr = table.getElementsByTagName("tr");
+        
+          // Loop through all table rows, and hide those who don't match the search query
+          for (i = 0; i < tr.length; i++) {
+            td = tr[i].getElementsByTagName("td")[0];
+            if (td) {
+              txtValue = td.textContent || td.innerText;
+              if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                tr[i].style.display = "";
+              } else {
+                tr[i].style.display = "none";
+              }
+            }
+          }
+        }
+        function filtrarCantidad() {
+          // Declare variables
+          var input, filter, table, tr, td, i, txtValue;
+          input = document.getElementById("inCantidad");
+          filter = input.value.toUpperCase();
+          table = document.getElementById("TablaArticulos");
+          tr = table.getElementsByTagName("tr");
+        
+          // Loop through all table rows, and hide those who don't match the search query
+          for (i = 0; i < tr.length; i++) {
+            td = tr[i].getElementsByTagName("td")[1];
+            if (td) {
+              txtValue = td.textContent || td.innerText;
+              console.log(td.textContent);
+              console.log(td.innerText);
+              if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                tr[i].style.display = "";
+              } else {
+                tr[i].style.display = "none";
+              }
+            }
+          }
+        }
+        </script>
+</body>
+</html>
