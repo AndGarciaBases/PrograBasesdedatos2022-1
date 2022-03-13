@@ -31,9 +31,9 @@
         }
         </script>
         <button class="btn" onclick="filtrarNombre()" > Filtrar por Nombre</button>
-       <input type="text" id="inNombre" placeholder="Filrar por nombre">
+       <input type="text" id="inNombre" placeholder="Filtrar por nombre">
        <button class="btn" onclick="filtrarCantidad()" > Filtrar por Cantidad</button>
-       <input type="text" id="inCantidad" placeholder="Filrar por Cantidad">
+       <input id="inCantidad" placeholder="Filtrar por Cantidad" type="number" step="1">
        <table id="TablaArticulos">
          <tr class="header">
            <th style="width:60%;">Nombre</th>
@@ -85,7 +85,7 @@
             td = tr[i].getElementsByTagName("td")[1];
             if (td) {
               txtValue = td.textContent || td.innerText;
-              if (txtValue.toUpperCase().indexOf(filter) > -1) {
+              if (i <= parseInt(filter)) {
                 tr[i].style.display = "";
               } else {
                 tr[i].style.display = "none";
