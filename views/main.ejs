@@ -37,25 +37,16 @@
        <table id="TablaArticulos">
          <tr class="header">
            <th style="width:60%;">Nombre</th>
-           <th style="width:40%;">Cantidad</th>
+           <th style="width:40%;">Precio</th>
          </tr>
+         <%Articulos.recordset.forEach(function(Articulo, index){%>
          <tr>
-           <td>Articulo 1</td>
-           <td>200</td>
+           <td><%= Articulo.Nombre%></td>
+           <td><%= Articulo.Precio%></td>
          </tr>
-         <tr>
-           <td>Articulo 2</td>
-           <td>300</td>
-         </tr>
-         <tr>
-           <td>Articulo 4</td>
-           <td>500</td>
-         </tr>
-         <tr>
-           <td>Articulo 6</td>
-           <td>50</td>
-         </tr>
+         <%});%>
        </table> 
+       
 
 
 
@@ -94,8 +85,6 @@
             td = tr[i].getElementsByTagName("td")[1];
             if (td) {
               txtValue = td.textContent || td.innerText;
-              console.log(td.textContent);
-              console.log(td.innerText);
               if (txtValue.toUpperCase().indexOf(filter) > -1) {
                 tr[i].style.display = "";
               } else {
