@@ -5,35 +5,14 @@
 </head>
 
 <body style="background-color:#FFFFFF">
-    <div class="topnav">
-        <a onclick="openNav()">></a>
-      </div> 
-      <div id="mySidenav" class="sidenav">
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-        <a href="/main">Inicio</a>
-      </div>
 
-      <script>
-        // Opens navigation left panel
-        function openNav() {
-          document.getElementById("mySidenav").style.width = "250px";
-        }
-        // Closes left panel
-        function closeNav() {
-          document.getElementById("mySidenav").style.width = "0";
-        }
-
-        function openlogin(){
-          document.getElementById("Mylogin").style.height = "35%";
-        }
-        function closelogin(){
-          document.getElementById("Mylogin").style.height = "0";
-        }
-        </script>
+  
         <button class="btn" onclick="filtrarNombre()" > Filtrar por Nombre</button>
        <input type="text" id="inNombre" placeholder="Filtrar por nombre">
        <button class="btn" onclick="filtrarCantidad()" > Filtrar por Cantidad</button>
        <input id="inCantidad" placeholder="Filtrar por Cantidad" type="number" step="1">
+       <button class="btn"><a class="a2"href="/AgregarArticulo"> AgregarArticulo</a></button>
+       <button class="btn"><a class="a2"href="/"> Salir</a></button>
        <table id="TablaArticulos">
          <tr class="header">
            <th style="width:60%;">Nombre</th>
@@ -82,7 +61,7 @@
         
           // Loop through all table rows, and hide those who don't match the search query
           for (i = 0; i < tr.length; i++) {
-            td = tr[i].getElementsByTagName("td")[1];
+            td = tr[i].getElementsByTagName("td")[0];
             if (td) {
               txtValue = td.textContent || td.innerText;
               if (i <= parseInt(filter)) {

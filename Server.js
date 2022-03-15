@@ -22,8 +22,8 @@ sql.connect(config, function (err) {
     });
 global.sql = sql;
 app.use(express.static('public'));
-const {getMainPage, auth, getLoginPage} = require('./routes/controller')
-const {} = require('./routes/cruds');
+const {getMainPage, auth, getLoginPage, getAgregarArticulo} = require('./routes/controller')
+const {agregar} = require('./routes/cruds');
 
 app.use(session({
 	secret: 'secret',
@@ -37,8 +37,10 @@ app.get('/', function (req, res) {
     res.render('login.ejs', {root: __dirname});
 });
 app.post('/auth',auth);
+app.post('/agregar',agregar);
 app.get('/main',getMainPage);
 app.get('/login',getLoginPage);
+app.get('/AgregarArticulo',getAgregarArticulo);
 
 
 var server = app.listen(80, function () {
