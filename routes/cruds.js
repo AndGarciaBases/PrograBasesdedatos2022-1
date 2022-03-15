@@ -12,7 +12,7 @@ module.exports = {
             dbrequest.query(dbquery, function(err, results, fields) {
                 if (err)console.log(err) 
                 else {
-                    /*res.send('Articulo agregado con exito, puedes proceder a chuparmela');*/
+                    /*res.send('Articulo agregado con exito');*/
                     res.redirect('/main');
                 }			
                 res.end();
