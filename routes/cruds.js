@@ -10,7 +10,8 @@ module.exports = {
             dbrequest.input('Precio',sql.Money,Precio);
             dbrequest.output('output', sql.Int, output);
             dbrequest.query(dbquery, function(err, results, fields) {
-                if (err)console.log(err) 
+                if (results.output.output == 50001)
+                    res.send('Error al agregar articulo');
                 else {
                     /*res.send('Articulo agregado con exito');*/
                     res.redirect('/main');

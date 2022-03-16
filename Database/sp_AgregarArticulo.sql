@@ -8,14 +8,18 @@ SET NOCOUNT ON;
 
 BEGIN TRY
 
-BEGIN TRANSACTION InsertarArticulo
+IF EXISTS (SELECT id
+ FROM dbo.Articulo
+ Where( Articulo.Nombre=@nombre))
+BEGIN
+	SET @OutResultCode = 50001; -- Ya existe ese articulo
+END
+ELSE
 
 INSERT INTO dbo.Articulo(
 			Nombre,
 			Precio
 			) VALUES (@nombre,@Precio);
-END TRANSACTION InsertarArticulo
-
 END TRY
 
 BEGIN CATCH
